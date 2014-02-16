@@ -1,0 +1,19 @@
+public class NameGen {
+
+public static void main(String[] args) {
+
+    Random random = new Random();
+    int syllables = random.nextInt(2);  //  Only 3 syllabels allowed sry not sry
+    char vowels[] = {'A','E','I','O','U'};    // >what's a vowel
+    String alphabetic[] = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+    String name = ""; // initialisation of name because u r fag
+        
+    for (int i = 0; i < syllables+2; i++) //looping for shit yo
+        {
+            name += alphabetic[random.nextInt(alphabetic.length)]; //>takes 1 normal letter
+            name += vowels[random.nextInt(vowels.length)];    //>adds a shitty vowel
+        }
+    System.out.println(name.toLowerCase()); // >lower case beacuse fuck you i'm not a smart person
+    }
+
+}
