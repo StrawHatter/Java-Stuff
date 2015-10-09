@@ -1,0 +1,16 @@
+FilePath$ java BitTwiddling
+dec: -1 
+dec: 85 
+hex: FF 
+hex: 55 
+binary:11111111 
+binary:1010101 
+c - decimal: 85  hex: 55  binary: 1010101 
+0xFF AND 0x55 = 55 
+NOT 0x18 = e7 
+(0x85 OR 01010101b) AND 15 = 0x5 
+Evaluates to: true 
+Evaluates to: true 
+Evaluated to: true 
+Bit b0, b4, b6  was set
+40.0
