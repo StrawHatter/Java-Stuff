@@ -1,1 +1,2 @@
 https://chortle.ccsu.edu/java5/Notes/chap22/ch22_2.html
+http://lifeofpentester.blogspot.co.uk/2014/03/xor-encryption-decryption-java-source.html
